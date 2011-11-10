@@ -7,7 +7,8 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/nxt_robots</url>
   <depend stack="navigation" /> <!-- robot_pose_ekf -->
-  <depend stack="nxt" /> <!-- nxt_ros, nxt_controllers -->
+  <depend stack="nxt" /> <!-- nxt_ros, nxt_description, nxt_controllers, nxt_msgs -->
+  <depend stack="robot_model" /> <!-- robot_state_publisher -->
   <depend stack="ros" />
 
 </stack>
